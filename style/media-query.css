@@ -1,0 +1,136 @@
+@media only screen and (max-width: 414px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 50%;
+        /* background-color: yellow; */
+    
+    }
+    .header{
+        display: none;
+    }
+
+
+    .tea_and_man{
+        display: flex;
+        /* margin: 0 auto; */
+        flex-wrap: wrap;
+        width: 10%;
+    }
+    .scale-section{
+        display: flex;
+        width: 100px;
+        margin-left: 2%;
+        font-size: 45%;
+    }
+    .stefan_and_girl-section{
+        display: flex;
+        height: 500px;
+        width: 1000px;    
+        flex-direction: column;
+    }
+    .stefan_and_girl-section img{
+        width: 40%;
+        margin-left: -59%;
+        margin-top: 20%;
+    }
+    .girl-section{
+        display: flex;  
+        flex-direction: column;
+        width: 42%;
+        height: 1400px;
+        background-color:#FAF9F7;
+        margin-left: -60%;
+        margin-top: 20%;
+        margin-bottom: -150%;
+   }
+
+   .pricing-section{
+    display: flex;
+    height: 900px;
+    width: 100%;
+    margin-top: 300%;
+    }
+    .pricing-section p{
+    width: 99%;
+    }
+
+    .most_team-section{
+        width: 120%;
+        height: 100%;
+        background-color: black;
+        margin-left: -20%;
+    }
+    .box-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box_1, .box_2, .box_3{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        /* padding-left: 20px; */
+        margin-left: 20%;
+    
+    }
+    .last-section{
+        width: 100%;
+        background: black;
+        min-height: 960px;
+        /* margin-top: 350%; */
+    }
+
+    .last-section img{
+        margin-top: 10%;
+        margin-right: 20%;
+        /* margin-left: 10%; */
+        width: 400px;
+        height: 400px;
+    }
+
+    .form-section{
+        position: absolute;
+        margin-top: 50%;
+        margin-left: -0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: #FBF19B;
+        border-radius: 20px;
+    }
+    .form-section p{
+        width: 90%;
+        height: 48px;
+        margin-left: 10%;    
+    }
+
+    .btn{
+        margin-top: 10%;
+        background-color: black;
+        width: 150px;
+        border-radius: 100px;
+        height: 55px;
+        color: #FAF9F7;
+        margin-right: 80%;
+        margin-left: 10%;
+    }
+    
+    .footer{
+        background-color: #C6F572;
+        height: 100% auto;
+    }
+    .line{
+        /* margin-top: 1%; */
+        margin-left: 2%;
+        width: 400px;
+        border: 1px solid black;
+    }
+    
+}
